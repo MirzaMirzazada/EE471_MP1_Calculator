@@ -6,6 +6,7 @@ class Calculator:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return self.__current_val
     
@@ -29,3 +30,9 @@ class Calculator:
         self.__current_val = x / y
         return self.__current_val 
 >>>>>>> feat/div
+=======
+        return self.__current_val
+    def multiply(self, x, y):
+        self.__current_val = x * y
+        return self.__current_val
+>>>>>>> feat/mul
