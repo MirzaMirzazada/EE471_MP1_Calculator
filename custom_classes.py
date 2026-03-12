@@ -4,3 +4,6 @@ class Calculator:
 
     def get_current_val(self):
         return self.__current_val
+    def multiply(self, x, y):
+    self.__current_val = x * y
+    return self.__current_val
