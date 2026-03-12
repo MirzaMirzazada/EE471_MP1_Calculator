@@ -4,10 +4,17 @@ class Calculator:
 
     def get_current_val(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return self.__current_val
     
     def add(self, x, y):
         self.__current_val = x + y
 >>>>>>> feat/add
+=======
+        return self.__current_val
+
+    def subtract(self, x, y):
+        self.__current_val = x - y
+>>>>>>> feat/sub
         return self.__current_val
